@@ -1,16 +1,16 @@
 [submodule "binutils"]
 	path = binutils
-	url = https://github.com/gnutools/binutils-gdb.git
-	branch = binutils-2_47-branch
+	url = git@github.com:FondazioneChipsIT/corev-binutils-gdb.git
+	branch = fix-elw-encoding
 	shallow = true
 [submodule "gcc"]
 	path = gcc
-	url = https://github.com/gcc-mirror/gcc.git
-	branch = releases/gcc-16
+	url = git@github.com:FondazioneChipsIT/corev-gcc.git
+	branch = internal-dev
 	shallow = true
 [submodule "glibc"]
 	path = glibc
-	url = https://github.com/gnutools/glibc.git
+	url = https://sourceware.org/git/glibc.git
 	shallow = true
 [submodule "dejagnu"]
 	path = dejagnu
@@ -19,12 +19,12 @@
 	shallow = true
 [submodule "newlib"]
 	path = newlib
-	url = https://github.com/cygwin/cygwin.git
+	url = https://sourceware.org/git/newlib-cygwin.git
 	branch = master
 	shallow = true
 [submodule "gdb"]
 	path = gdb
-	url = https://github.com/gnutools/binutils-gdb.git
+	url = https://sourceware.org/git/binutils-gdb.git
 	branch = gdb-17-branch
 	shallow = true
 [submodule "qemu"]
@@ -33,7 +33,7 @@
 	shallow = true
 [submodule "musl"]
 	path = musl
-	url = https://github.com/kraj/musl.git
+	url = https://git.musl-libc.org/git/musl
 	branch = master
 	shallow = true
 [submodule "spike"]
