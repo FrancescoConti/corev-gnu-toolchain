@@ -1,3 +1,15 @@
+MAGIA-tailored CORE-V toolchain
+===============================
+Clone this toolchain from 
+
+    $ git clone https://github.com/FrancescoConti/corev-gnu-toolchain
+
+To build it in a MAGIA-usable configuration, configure it with `multilib`:
+
+    $ ./configure --enable-multilib --prefix=[DESIRED_PREFIX]
+
+The rest that follows is the unmodified README from `riscv/riscv-gnu-toolchain`.
+
 RISC-V GNU Compiler Toolchain
 =============================
 
